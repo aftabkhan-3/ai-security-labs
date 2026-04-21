@@ -75,5 +75,3 @@ curl -X POST http://127.0.0.1:3000/agent \
 * Multi-tool agent exploitation
 * RAG poisoning
 * Auth & privilege escalation
-
----
