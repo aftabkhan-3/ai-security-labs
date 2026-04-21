@@ -64,12 +64,11 @@ curl -X POST http://127.0.0.1:3000/agent \
 
 ---
 
-### Impact
-
+## 🚨 Impact
+* Full Remote Code Execution (RCE) — attacker can execute arbitrary OS commands
 * Arbitrary command execution
 * System compromise
 * Data exfiltration
-
 ---
 
 ### Skills Demonstrated
